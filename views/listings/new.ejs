@@ -1,0 +1,58 @@
+
+ <% layout("/layouts/boilerplate") %>
+<body>
+  <h3 class="offset-2 mt-2">Create a new Listing</h3>
+    <div class="row">
+    <form method="POST" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">
+      <div class="mb-3 col-6 offset-2">
+      <label for="title" class="form-label">Enter Title</label>
+        <input name="listing[title]" placeholder="enter your title here" type="text" class="form-control" required>
+           <div class="valid-feedback">
+      Looks good!
+    </div>
+        </div>
+      
+        <div class="mb-3 col-6 offset-2">
+           <label for="description" class="form-label">Enter Description</label>
+          <textarea name="listing[description]" placeholder="add a cachy title" type="text"  class="form-control" required ></textarea>
+                        <div class="invalid-feedback">
+      Please enter a short description.
+    </div>
+          </div>
+       
+        <div class="mb-3 col-6 offset-2">
+
+            <label for="imageurl" class="form-label">Upload Image</label>
+             <input name="listing[image]"  type="file"  class="form-control">
+          </div>
+   <div class="row offset-2">
+        <div class="mb-3 col-md-2">
+            <label for="price" class="form-label">Enter price</label>
+          <input name="listing[price]" placeholder="1200" type="number"  class="form-control" required >
+                  <div class="invalid-feedback">
+      Please provide a valid price.
+    </div>
+          </div>
+        <div class="mb-3 col-md-4  ">
+            <label for="country" class="form-label">Enter country</label>
+          <input name="listing[country]" placeholder="India" type="text"  class="form-control"required >
+                  <div class="invalid-feedback">
+      Please provide a valid country.
+    </div>
+        </div>
+        </div>
+            <div class="mb-3 col-6 offset-2">
+            <label for="location" class="form-label">Enter location</label>
+          <input name="listing[location]" placeholder="Nainital" type="text"  class="form-control"required>
+            <div class="invalid-feedback">
+      Please provide a valid location.
+    </div>
+        </div>
+       
+        <button class="btn  add-btn offset-1">Add</button>
+        <br><br>
+    </form>
+    </div>
+</body>
+
+
