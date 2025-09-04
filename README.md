@@ -52,7 +52,7 @@ airbnbfinal/ ├── models/              # Mongoose models ├── routes/ 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/airbnbfinal.git
+🔗 git clone https://github.com/yourusername/airbnbfinal.git
 cd airbnbfinal
 
 # Install dependencies
@@ -81,7 +81,10 @@ node app.js
 This project is licensed under the ISC License.
 👨‍💻 Author
 Made with ❤️ by [Antima Yadav]
-[Github][https://github.com/antima789779]
+🔗 https://github.com/antima789779
+
+
+
 
 
 
