@@ -52,7 +52,7 @@ airbnbfinal/ ├── models/              # Mongoose models ├── routes/ 
 
 ```bash
 # Clone the repository
-🔗 git clone https://github.com/yourusername/airbnbfinal.git
+🔗 git clone https://github.com/antima789779/Airbnb-Clone-Web-Application.git
 cd airbnbfinal
 
 # Install dependencies
